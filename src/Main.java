@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("enter a number!!!");
+        System.out.println("Enter a number!!!");
 
         Scanner sn = new Scanner(System.in);
 
