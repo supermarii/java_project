@@ -11,6 +11,7 @@ public class Main {
 
         final int userInput = sn.nextInt();
         final int userInput2 = sn.nextInt();
+        final int userInput3 = sn.nextInt();
         System.out.println(userInput);
 
     }
