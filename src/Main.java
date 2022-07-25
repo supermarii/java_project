@@ -5,7 +5,7 @@ public class Main {
         final int x = 10;
         final int y = 12;
         final int z = 23;
-        System.out.println("test");
+        System.out.println("test123");
 
         Scanner sn = new Scanner(System.in);
 
