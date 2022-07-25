@@ -12,5 +12,7 @@ public class Main {
 
         System.out.println(userInput);
 
+        System.out.println("That's an important update!");
+
     }
 }
