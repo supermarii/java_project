@@ -10,6 +10,7 @@ public class Main {
         Scanner sn = new Scanner(System.in);
 
         final int userInput = sn.nextInt();
+        final int userInput2 = sn.nextInt();
         System.out.println(userInput);
 
     }
