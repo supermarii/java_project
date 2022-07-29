@@ -1,18 +1,18 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hey you!!");
-        System.out.println("Enter a nice number!!! :)");
+        Scanner userInput = new Scanner(System.in);
 
-        Scanner sn = new Scanner(System.in);
+        System.out.print("Enter your firstname: ");
+        final String firstname = userInput.nextLine();
 
-        final int userInput = sn.nextInt();
+        System.out.print("Enter your age: ");
+        final int age = userInput.nextInt();
 
-        System.out.println(userInput);
-
-        System.out.println("That's an important update!");
-
+        for (int index = 1; index <= age; index++) {
+            if (index == 16) continue;
+            System.out.println("Happy Birthday " + firstname + ", year " + index);
+        }
     }
 }
