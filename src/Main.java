@@ -4,6 +4,7 @@ public class Main {
 
         Scanner userInput = new Scanner(System.in);
 
+        System.out.println("Hello!");
         System.out.print("Enter your firstname: ");
         final String firstname = userInput.nextLine();
 
