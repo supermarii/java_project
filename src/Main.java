@@ -4,11 +4,10 @@ public class Main {
 
         Scanner userInput = new Scanner(System.in);
 
-        System.out.println("Hello!");
-        System.out.print("Enter your firstname: ");
+        System.out.print("Hello! Enter your firstname: ");
         final String firstname = userInput.nextLine();
+        System.out.print("Hello " + firstname + ", enter your age: ");
 
-        System.out.print("Enter your age: ");
         final int age = userInput.nextInt();
 
         for (int index = 1; index <= age; index++) {
